@@ -13,7 +13,7 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 
 ## Results
 
-<a href=“https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynbE“ target="_blank">Click here to see the AlphabetSoupCharity.ipynb file</a>
+<a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb" target="_blank">Click here to view neural network code</a>
 
 ### Data Processing
 
