@@ -19,6 +19,8 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 
 ### Compiling, Training, and Evaluating the Model
 
+<a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb" target="_blank">Click here to view neural network code after optimization</a>
+
 ## Summary
 
 ### Recommendations
