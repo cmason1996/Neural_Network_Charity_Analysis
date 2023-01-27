@@ -11,6 +11,8 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 * Python version 3.7.13
 * Data Used: charity_data.csv
 
+<img width="413" alt="original_network" src="https://user-images.githubusercontent.com/112291888/215143950-87f1f3f3-00fd-43e3-aca4-8af92f2d55d0.png">
+
 ## Results
 
 ### Data Processing
@@ -35,4 +37,8 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 
 ## Summary
 
+Overall, the nerual network was able to process the data to some regree of accuracy after several iterations. However, given that this model will be used to predict financial decisions, a higher degree of accuracy would be recommended before instituting and relying on the model in the long term. 
+
 ### Recommendations
+
+Going forward, it is recommended to continue the iterations of the model until a higher degree of accuracy is achieved. One of our recommendations would be to try processing the data with both a nerual network and a Linear Regression model and comparing the two results. The reason we would recommend a Lineral Regression model is that is excells at fitting data and returing either a yes or no prediction which is the entire goal of this analysis. 
