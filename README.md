@@ -13,13 +13,25 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 
 ## Results
 
+### Data Processing
+
 <a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb" target="_blank">Click here to view neural network code</a>
 
-### Data Processing
+* For this analysis we were interested in whether a company would be successful in receiving an investment from Alphabet Soup; therefore our target variable would be the 'IS_SECCESSFUL' column. To do this the values in the column were set equal to 'y'.
+
+* The features of this analysis are all of the other columns in the dataset that can be used to predict whether a company would be successful in receiving an investment from Alphabet Soup. These columns were set equal to 'X'. 
+
+* Variables that are neither targets or features are columns such as 'EIN', and 'NAME' and they were removed before the preprocessing of the data continued. This was done to remove any variales that would skew that data but not give any real value to the fitting of the neural network. 
 
 ### Compiling, Training, and Evaluating the Model
 
 <a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb" target="_blank">Click here to view neural network code after optimization</a>
+
+* For the optimization of the model. one of the steps taken was to increase the number of hidden layers in the model from 2 layers to 3. The first layer had 8 neurons, the second layer had 5 neurons, and the third layer had 3 neurons. All three of these layers used the 'relu' activation function. The reason to increase the number of layers was an attempt to increase the accruacy of the model by increasing that layers in which data is processed. Using the 'relu' activation function was done because it allows for an infinite number of positive variables which allows for a greater accuracy in processing data. 
+
+* During the optimization of the model the target accuracy of 75% was not reached. The closest our accuracy got to the target was 64.9% accuracy. While this did not reach the target, it was a marked improvement over the initial accuracy of the model at 52.54%.
+
+* THe steps taken to increase the accuracy of the model were to increase the number of epochs the model trained for, change the activation function from 'relu' to 'tanh', increase the number of hidden layers, drop additional columns of clouding data from the training and test data, and decreasing the number of hidden layers to 1 with 8 neurons. While all of these steps were effective in increasing the accuracy of the model, none of them were able to increase the accuracy to the target level.
 
 ## Summary
 
