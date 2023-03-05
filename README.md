@@ -17,7 +17,7 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 
 ### Data Processing
 
-<a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb" target="_blank">Click here to view neural network code</a>
+<a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/Code/AlphabetSoupCharity.ipynb" target="_blank">Click here to view neural network code</a>
 
 * For this analysis we were interested in predicting whether a company would be successful in receiving an investment from Alphabet Soup; therefore our target variable would be the 'IS_SECCESSFUL' column. To do this the values in the column were set equal to 'y'.
 
@@ -27,7 +27,7 @@ The purpose of this analysis was to take past data from Alphabet Soup's donating
 
 ### Compiling, Training, and Evaluating the Model
 
-<a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb" target="_blank">Click here to view neural network code after optimization</a>
+<a href="https://github.com/cmason1996/Neural_Network_Charity_Analysis/blob/main/Code/AlphabetSoupCharity_Optimization.ipynb" target="_blank">Click here to view neural network code after optimization</a>
 
 * For the optimization of the model, one of the steps taken was to increase the number of hidden layers in the model from 2 layers to 3. The first layer had 8 neurons, the second layer had 5 neurons, and the third layer had 3 neurons. All three of these layers used the 'relu' activation function. The reason to increase the number of layers was an attempt to increase the accruacy of the model by increasing that layers in which data is processed. Using the 'relu' activation function was done because it allows for an infinite number of positive variables which allows for a greater accuracy in processing data. 
 
